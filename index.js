@@ -15,7 +15,7 @@ console.log(pet);
 *
 * Each value should be a String. 
 **/
-var firstName = "Anthony";
+var firstName = "Ant";
 console.log(firstName);
 var lastName = "Garingan";
 console.log(lastName);
@@ -183,11 +183,36 @@ var lastName = " Garingan";
 var fullName = firstName.concat(lastName);
 console.log(firstName.concat(lastName));
 
+var favoriteNumber = 4;
+console.log(favoriteNumber);
+var currentYear = 2017;
+console.log(currentYear);
+var thatOnePrinceSong = 1;
+console.log(thatOnePrinceSong);
+var tokyoOlympics = 2018;
+console.log(tokyoOlympics);
+var mariahCareyAge = 52;
+console.log(mariahCareyAge);
+var currentTemp = 72;
+console.log(currentTemp);
+var studentsInClass = 12;
+console.log(studentsInClass)
+var numOfJapanPrefectures = 47;
+console.log(numOfJapanPrefectures);
+var currentIphoneModel = 6;
+console.log(currentIphoneModel);
+var shoeSize = 9.5;
+console.log(shoeSize);
+
 var fullName = firstName.concat(lastName);
 var whereFrom = " is from Honolulu";
 console.log(fullName.concat(whereFrom));
 
+// var mariahStory = "At the age of" + mariahCareyAge + " wearing her fancy " + favSneaker  + "sang" +  favLoveSong +  " at the "  + coffeeShop ;
 
+var mariahStory = "At the age of " + mariahCareyAge + " wearing her fancy " + favSneaker + " sang " + favLoveSong + " at the " + coffeeShop;
+
+console.log(mariahStory)
 
 
 
@@ -328,11 +353,29 @@ console.log(myBox);
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
 
-function bakePie(blueberry){
-	return "Today's special " + blueberry + " pie. "
+// function bakePie(ingredient){
+// 	return "Today's special " + ingredient + " pie. "
 
+// }
+// var pieResult = 
+
+function bakePie(ingredient){
+	return "Today's special " + ingredient + " pie."
+	
 }
+console.log(bakePie("blueberry"));
+
+var pieResult = bakePie("pineapple");
+console.log(pieResult);
 
 
+function jump(height){
+	return "You jumped " + height + " feet high."
+}
+console.log(jump(9));
 
+function cook(ingredient1, ingredient2, recipeName){
+	return ingredient1 + " and" + ingredient2 + " make a" + recipeName;
+}
+console.log(cook("Tomatoes", " Cheese", " Pizza"));
 
